@@ -1,0 +1,3796 @@
+fileFormatVersion: 2
+guid: 10c072dcb0d73e04bb501ad3f604d267
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites Unorg_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 509
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2859124c371b3114abbfdec85b1b86a1
+      internalID: 860456982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 509
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5010be8b628fe904d876307adbf43196
+      internalID: -688188285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 509
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac9e4cca0d93b744a5b56a00b44d1d1
+      internalID: 1974559628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 509
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1bc0b2075649f40801dcb904f55b63
+      internalID: 315399276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 509
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c59e2d1a42039744ac68bb399f658d4
+      internalID: -744301424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 509
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91de5064a9aada648a291552e69dd560
+      internalID: 1922648657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 509
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ef2089110f44548a1ad2d3b49be2d9
+      internalID: -1825577647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 509
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824100e9928cf224cb7b4e1d3fd1399a
+      internalID: 999778094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 510
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58314e7f962bb0b4791d188dac1a25c3
+      internalID: 2002718553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 509
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9462946ad46fee1489673261db95d9f4
+      internalID: 1671426621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 510
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eea17d76301624d9b6c25601a25818
+      internalID: -1289786191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 509
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f8e36aeb1e98b40b790441a0e68050
+      internalID: -1466685536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 491
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fc55be5405a644daabecacd790f8d8
+      internalID: 957499788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 491
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516debaa70954654aaf19e281b73ab56
+      internalID: 844770069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 491
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291b2cb2bbeccd941849f8d5aa53ac2c
+      internalID: -1075603642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 491
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4bacdb927d2c4ea4378cba92b8297
+      internalID: 1903243167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 491
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd3bb7001a897046a3f8bd822153761
+      internalID: 680675081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 491
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f08e5617a40944989c6c500dc7b6a6
+      internalID: -994205079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 474
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fbe6108944c524bab119f0b67aa9d2
+      internalID: -868086936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 473
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d592e6b22d907a540983597c490f4faf
+      internalID: -1434506265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 473
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af17209e7e0ebee4bad5a70731d98b74
+      internalID: 547208737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 473
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a92ceec5604a4479a05a5c60f5199c
+      internalID: -2012900848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 473
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9ee53cef06f07489e932d5ba4f54c8
+      internalID: -874893283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_23
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 478
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0b7fc2b115b5e4792a352c3e9aa16a
+      internalID: 1563641900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 476
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bed4c37c64f162478d017057e614a63
+      internalID: -2012657727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 478
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7103af789f43efc4183ab3c72a5fdb4b
+      internalID: -1836942451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 474
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd69d1f3732a214aa2b44dda6216172
+      internalID: -940926580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 473
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a0c75a3f19714ba4a394bc16e6f8b
+      internalID: -1922088684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_28
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 473
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003c7c60d94175f4d8aef00acf1574fe
+      internalID: 930139032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 473
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5d571f5ed5da94c81dbe82f42f8105
+      internalID: -102873816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 473
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4694e4832ddb2478118e6dfaa9049b
+      internalID: -435003815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_31
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 478
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560684a679dbe51408742337d33e6fe7
+      internalID: 1058043931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_32
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 478
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced7e35d59bf914419f65971171518ae
+      internalID: -2104984571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 457
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61496c6e5e879764d9a64824af69df98
+      internalID: 590364352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_34
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 459
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4826e386165f92247a8254d6e01bfc34
+      internalID: 1314325360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_35
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 460
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a275777e365ae43408f38bc6b9ccae1d
+      internalID: -942151182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_36
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 456
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf2e2bac853c0c45ad391eef92564f8
+      internalID: -1496896591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 455
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d215516be3159142b7a11e967b8c432
+      internalID: 1838845265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_39
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 456
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11374a98ce6b52945a615a15292dd551
+      internalID: 1274388330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 455
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9ed0fca151c924c8c41c1e6daf3c88
+      internalID: -1045143231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_41
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 456
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421e9d5c11c3d3a43a6b6326eb9d0cfa
+      internalID: 916315652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 421
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a3821d905a4b543a896e54033698fa
+      internalID: -221034068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_45
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 421
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28e613a66285974e95334f20516354b
+      internalID: 2144772617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 421
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a07dbc0ec3bc040b1a37be5b65d160
+      internalID: -1081834788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_47
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 421
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780310198911fc4da7fb079bd34df40
+      internalID: 569276011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_48
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 421
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7f62f954ceb3840a48d0f229985b7d
+      internalID: 530233036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_49
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 421
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b104ffa8382266488de99d7e4339032
+      internalID: 81611118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 387
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a843db9a51d4fe546b1f9db7eba05cf6
+      internalID: -2101562041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_51
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 387
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47e63092c272d74988c48ff9984b947
+      internalID: 1535704301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_52
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 387
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a364ef3c827a04f8e5384e88de9776
+      internalID: -1781311242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_53
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 387
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2049a23336c67354881a3fe0fcd98715
+      internalID: 2085964038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_54
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 387
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a768bc05afe9cb489d11a5091103dc3
+      internalID: 28904092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_55
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 387
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902916fa338171d4f81e79011edb8f94
+      internalID: -1059180820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 356
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4876b3d9b85343f48b58b91e059bf3a3
+      internalID: -673800609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_57
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 356
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e68149c8c3cb2d4d98fa149bc190872
+      internalID: 167006386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_58
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 356
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37c3883c95827840b1ccdb229add281
+      internalID: 1637719368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 356
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c16ee78c5708984aa4564b5e2517582
+      internalID: 1260927704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_60
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 353
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4d10fc52753db4395264e063549ac4
+      internalID: -300214053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_61
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 353
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14332e3322aeaa84f9874706264045c4
+      internalID: -1474646930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_62
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 354
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0110d52fefc34b7418b725fb7a9c88b6
+      internalID: 1849004492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_63
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 354
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450b8afba6b077a459e4fb2cdbc1921a
+      internalID: 1908110554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_65
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 354
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e551a2f8fa7ce6d4c9932417b4548d13
+      internalID: -457021826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_66
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 354
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a886126027c59b941bb0fff3c3556baf
+      internalID: -1269643087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_67
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 354
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973161126b9860440b153901839f2dc2
+      internalID: 788620451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_68
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 340
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b635a1170877c6459837890187e8bbb
+      internalID: 1196571770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_69
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 340
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a071de4b79c25d43892100d057de1e9
+      internalID: -1944145990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 340
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b75a4e8277b4247ba31498a3f7a2ab
+      internalID: 1494823392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_71
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e251bec72cc42468dd82800bd32e64
+      internalID: -1652015242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_72
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9260acfa238c1448a90dc8e0c61a45
+      internalID: 240725598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_73
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 340
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a67e8416be770d439b6f3a92d35f064
+      internalID: 2094216071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_74
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430f6514a8152349b251d7d40da4739
+      internalID: 1002417172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_75
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a417b16918f73c54ab9477eb4455eb78
+      internalID: 1861051261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_76
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 340
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489923476973f6d4dbc031b04659d2a6
+      internalID: 521532863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_77
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c9c6c2c5e064b47b83fc0cdf265a96
+      internalID: -1993345492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_78
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a7f6790e63c804a9846d895c363099
+      internalID: -348881698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 340
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76afdd32c07f6e43b431f1e1536c0f2
+      internalID: 986490230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fa6c833b539548bb9ac0d57654e05
+      internalID: -2038260571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_81
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 340
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2caee5bd7dc004a89fbab7f6e5ac26
+      internalID: 1301343948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_82
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 335
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d877c59f08ad95438e3ca03a8a535a6
+      internalID: 1343415436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_83
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 335
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48544be9fcab6944d8dae48430661912
+      internalID: 2118158217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_84
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 335
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2856a1820e017f541ba305add086b7bf
+      internalID: 643265578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_85
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 335
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366979f9f7072b1469f2ef8859643f0f
+      internalID: -1280475357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_86
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 317
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745cd61913c40f343abfd3ba514b4275
+      internalID: 313994008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_87
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 317
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d1df7924610b840af6295f6c66fa49
+      internalID: 624188507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_88
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 317
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23374400311ba7745ba2731944053726
+      internalID: -263788428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_89
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 317
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0750b16ea7917b41bc9dedaa98b408a
+      internalID: 689786675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_90
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 317
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7a40aaa5b1fb9479d6483a83548756
+      internalID: -1986154515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_91
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 317
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273df9f81861fff4590fe598a050c960
+      internalID: 155032088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_92
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 317
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85292d1e81e371545b86ea67ec1b3e9b
+      internalID: 570329631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_93
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 317
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7228e66e30ec745a96395942a0d874
+      internalID: -1175646986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_94
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65db00c953b961b49ae5dad3dfa66f5a
+      internalID: 831991411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_95
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 317
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda1d4d4808922d40a80d0bf547257de
+      internalID: -112770614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_96
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 317
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76ccdb64d8be9d4d9f6bdcfc2c155f1
+      internalID: -1107944627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_97
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab200774af64a8448932bb25e1d99c24
+      internalID: -1480402002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_98
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d39a41e92c33254a85b3b90cf651b4e
+      internalID: 1057832288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_99
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 303
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bf6f5e219b94d449bee6dbcd52c29a
+      internalID: 251709038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92541e7740373a443b0d81dbc550e06a
+      internalID: 315957450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_101
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 299
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5368f444738c943a877646d35978b2
+      internalID: 797584340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_102
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 299
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8447c7570ddf7844485b560dc4ecf1bc
+      internalID: -641098592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_103
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 299
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08891aaabf87df24db33dc8a7562f5fe
+      internalID: -1815637939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_104
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc09021c1fd3884290c72afe98a7394
+      internalID: 1810431791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_105
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 303
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece08aadd91f9a34f867ae8b55aa3a68
+      internalID: -1576627403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_106
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 302
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35a9cc3a1fa05f48b033d88c59249a1
+      internalID: -1139337707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_107
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 302
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdc4a3e639150545b5d8341fe02182e
+      internalID: 65414021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_108
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 302
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7e47370d6f09c4ba133be59748d49f
+      internalID: -695315530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_109
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 302
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb6fa18a0e179b45bdb49bc48638219
+      internalID: -936065956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_110
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 302
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fc0e16cb177c545925be268c42d8cb
+      internalID: 479060080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_111
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 302
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d089de803f61b60428931e65a61722d6
+      internalID: 1775135034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_112
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05390becb0e4dc438b371581afa1885
+      internalID: 664851345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_113
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26ad52ac88eb2c47adb36e740ad7f8d
+      internalID: 1036338159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_114
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf5f6617f498c042bceb696394a0ac5
+      internalID: 115101005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_115
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4870e78e6c0e71b4d80dade16fbe94e5
+      internalID: -219044115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_116
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 284
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bdb5f4b37d8a7439afc5a61e9c5023
+      internalID: -1255837421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_117
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 284
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c1800798f0eaa49a911185873514c9
+      internalID: 561120031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_118
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 281
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc8ec0ae5ee38f44a5ed996aa3835af
+      internalID: 1709772566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_119
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8111e95c495bba64c9c4d975d0d2d5c9
+      internalID: 375643053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_120
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80369e10cd24549aa3e13f05af19bd
+      internalID: 717132771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_121
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4cf4dddf368624d8aeb7038eff7273
+      internalID: 1418547624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_122
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e75abcac518fa459ed5a9692c54aa1
+      internalID: -2035406848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_123
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 284
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba728f8dd9aac4d4ca389c36964088ba
+      internalID: -396996089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_124
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 284
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177607a7a393714468521a6dd45b9637
+      internalID: 742232436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_125
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 236
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc92d435e3d416f4a8cf16cfb2751d9a
+      internalID: -1638533221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_126
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 236
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6129bed5b7b85994e8cce9726e28dd1a
+      internalID: 693290245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_127
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 236
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8c540bb78cd184190e3ddbc7d3328a
+      internalID: -1355445445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_128
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 236
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bd8ac3dd29b6b448dabb331654dd5a
+      internalID: 1639440163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_129
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 202
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e62dd0085c6d04c9e003c20d34382e
+      internalID: -927767475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_130
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 202
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be944151e300ac4a9fc6838830d6d92
+      internalID: 1352702010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_131
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 202
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2e3e7328b581c438c446058e328296
+      internalID: 1318700504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_132
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 160
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6853b4f66f1df1146a94b00afcc09c9f
+      internalID: 544324009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_133
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 160
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbb213c336c2014da04adc4203c1c8d
+      internalID: 1439133245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_134
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 160
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86474e61847c4cb49938f52872d8c5ad
+      internalID: -1604911262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_135
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 160
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e0d787ae463eb4ba64b1c333a1de7c
+      internalID: -1633461125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_136
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 118
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643fddad851babc499231d88cd85f35f
+      internalID: 549401031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_137
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 118
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c735e04fbeedca46b79757993edf932
+      internalID: -645857390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_138
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 118
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011373ec33b83be4da1959fb02223a80
+      internalID: -1435488126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_139
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 118
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a34a04fe04ef948b34ceb615b19269
+      internalID: 944638824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_140
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 84
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836a87e438051bc4094f416c5c029b11
+      internalID: 1730993670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_141
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 84
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8529f4fb2b7a341a13350be93c5aef
+      internalID: 1322910349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_142
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 84
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff7e976f2fbe7648a011bbeede7b5d5
+      internalID: -591586556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_143
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 84
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2720b7d37c07d5a428274bd3f15dffed
+      internalID: 732543024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_144
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 84
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c15d33dd133cf44855252afa6918ec
+      internalID: -1306377385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_145
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 84
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b9f866496dd6d47bee64eb0a3f0d90
+      internalID: -1870561669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_146
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918a4087e0d47ec46a167a958bae04d9
+      internalID: -1368807315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_147
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5252e48ea506cd4792e9fe6202eaf01
+      internalID: -921209714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_148
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec9dccdf6402e4b94e73ba6ca0be77
+      internalID: -1353475609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_149
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee1aba96f6902544bc260a30e027f07
+      internalID: 598104025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_150
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11450c70a3e5ea244ab0a92ff371f362
+      internalID: -148069588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_151
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30602568c6a605d4689a3d40d82f2175
+      internalID: -609451336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_152
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 72
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8132b3fbdc8b6bd45bb21aa74e190985
+      internalID: -1027605360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_153
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 68
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80215035f68ac7c468893d707c3d08e6
+      internalID: -135599106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_154
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78cbce67a1baa44d89ab1af428adb43
+      internalID: 1084105672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_155
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ba13c7d3b3c234da8b93cbd2b2c31f
+      internalID: -549304686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_156
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1014599f9e5faae4e8a037ba841a4497
+      internalID: -662626406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_157
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 66
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7699d9519340b6740a9683e0db4d601f
+      internalID: -478524081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_158
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 69
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e27d5848a69b74cadd1afeec2dec9c
+      internalID: -1181768115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4a0919c344b45418f9c11cba32d4dd
+      internalID: 1673232243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_160
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91093a6091f75a7419cfaa85c78fce24
+      internalID: -2039768219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_161
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afc22870fab49a42beb5a4c7bf4a9c1
+      internalID: 48641939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_162
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e11861a5896734c8c68b70a697fc74
+      internalID: -102747092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_163
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 48
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c081f83f72fd39043aa7d38cd5eb7f9f
+      internalID: -1481275151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_164
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef1904a4b85f934ea94c7e63eadad24
+      internalID: 1700409292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_165
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 48
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6312826de60708c46939b32c2b66e895
+      internalID: 1632735484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_166
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 48
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621c5e8d33dd356409edb7eaa91dbd85
+      internalID: -985912305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_167
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 48
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0172aa036f06e9941ab6ffb165498af4
+      internalID: 98777301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_168
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 48
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbf25713344eeb4bbc14a41d772ef24
+      internalID: -2048124939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites Unorg_169
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 52
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7983eee149f7d14186a0650371fba97
+      internalID: -1152650986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprites Unorg_0: 860456982
+      Sprites Unorg_1: -688188285
+      Sprites Unorg_10: -1289786191
+      Sprites Unorg_100: 315957450
+      Sprites Unorg_101: 797584340
+      Sprites Unorg_102: -641098592
+      Sprites Unorg_103: -1815637939
+      Sprites Unorg_104: 1810431791
+      Sprites Unorg_105: -1576627403
+      Sprites Unorg_106: -1139337707
+      Sprites Unorg_107: 65414021
+      Sprites Unorg_108: -695315530
+      Sprites Unorg_109: -936065956
+      Sprites Unorg_11: -1466685536
+      Sprites Unorg_110: 479060080
+      Sprites Unorg_111: 1775135034
+      Sprites Unorg_112: 664851345
+      Sprites Unorg_113: 1036338159
+      Sprites Unorg_114: 115101005
+      Sprites Unorg_115: -219044115
+      Sprites Unorg_116: -1255837421
+      Sprites Unorg_117: 561120031
+      Sprites Unorg_118: 1709772566
+      Sprites Unorg_119: 375643053
+      Sprites Unorg_12: 957499788
+      Sprites Unorg_120: 717132771
+      Sprites Unorg_121: 1418547624
+      Sprites Unorg_122: -2035406848
+      Sprites Unorg_123: -396996089
+      Sprites Unorg_124: 742232436
+      Sprites Unorg_125: -1638533221
+      Sprites Unorg_126: 693290245
+      Sprites Unorg_127: -1355445445
+      Sprites Unorg_128: 1639440163
+      Sprites Unorg_129: -927767475
+      Sprites Unorg_13: 844770069
+      Sprites Unorg_130: 1352702010
+      Sprites Unorg_131: 1318700504
+      Sprites Unorg_132: 544324009
+      Sprites Unorg_133: 1439133245
+      Sprites Unorg_134: -1604911262
+      Sprites Unorg_135: -1633461125
+      Sprites Unorg_136: 549401031
+      Sprites Unorg_137: -645857390
+      Sprites Unorg_138: -1435488126
+      Sprites Unorg_139: 944638824
+      Sprites Unorg_14: -1075603642
+      Sprites Unorg_140: 1730993670
+      Sprites Unorg_141: 1322910349
+      Sprites Unorg_142: -591586556
+      Sprites Unorg_143: 732543024
+      Sprites Unorg_144: -1306377385
+      Sprites Unorg_145: -1870561669
+      Sprites Unorg_146: -1368807315
+      Sprites Unorg_147: -921209714
+      Sprites Unorg_148: -1353475609
+      Sprites Unorg_149: 598104025
+      Sprites Unorg_15: 1903243167
+      Sprites Unorg_150: -148069588
+      Sprites Unorg_151: -609451336
+      Sprites Unorg_152: -1027605360
+      Sprites Unorg_153: -135599106
+      Sprites Unorg_154: 1084105672
+      Sprites Unorg_155: -549304686
+      Sprites Unorg_156: -662626406
+      Sprites Unorg_157: -478524081
+      Sprites Unorg_158: -1181768115
+      Sprites Unorg_159: 1673232243
+      Sprites Unorg_16: 680675081
+      Sprites Unorg_160: -2039768219
+      Sprites Unorg_161: 48641939
+      Sprites Unorg_162: -102747092
+      Sprites Unorg_163: -1481275151
+      Sprites Unorg_164: 1700409292
+      Sprites Unorg_165: 1632735484
+      Sprites Unorg_166: -985912305
+      Sprites Unorg_167: 98777301
+      Sprites Unorg_168: -2048124939
+      Sprites Unorg_169: -1152650986
+      Sprites Unorg_17: -994205079
+      Sprites Unorg_18: -868086936
+      Sprites Unorg_19: -1434506265
+      Sprites Unorg_2: 1974559628
+      Sprites Unorg_20: 547208737
+      Sprites Unorg_21: -2012900848
+      Sprites Unorg_22: -874893283
+      Sprites Unorg_23: 1563641900
+      Sprites Unorg_24: -2012657727
+      Sprites Unorg_25: -1836942451
+      Sprites Unorg_26: -940926580
+      Sprites Unorg_27: -1922088684
+      Sprites Unorg_28: 930139032
+      Sprites Unorg_29: -102873816
+      Sprites Unorg_3: 315399276
+      Sprites Unorg_30: -435003815
+      Sprites Unorg_31: 1058043931
+      Sprites Unorg_32: -2104984571
+      Sprites Unorg_33: 590364352
+      Sprites Unorg_34: 1314325360
+      Sprites Unorg_35: -942151182
+      Sprites Unorg_36: -1496896591
+      Sprites Unorg_37: -2011681545
+      Sprites Unorg_38: 1838845265
+      Sprites Unorg_39: 1274388330
+      Sprites Unorg_4: -744301424
+      Sprites Unorg_40: -1045143231
+      Sprites Unorg_41: 916315652
+      Sprites Unorg_42: 700557361
+      Sprites Unorg_43: 714011979
+      Sprites Unorg_44: -221034068
+      Sprites Unorg_45: 2144772617
+      Sprites Unorg_46: -1081834788
+      Sprites Unorg_47: 569276011
+      Sprites Unorg_48: 530233036
+      Sprites Unorg_49: 81611118
+      Sprites Unorg_5: 1922648657
+      Sprites Unorg_50: -2101562041
+      Sprites Unorg_51: 1535704301
+      Sprites Unorg_52: -1781311242
+      Sprites Unorg_53: 2085964038
+      Sprites Unorg_54: 28904092
+      Sprites Unorg_55: -1059180820
+      Sprites Unorg_56: -673800609
+      Sprites Unorg_57: 167006386
+      Sprites Unorg_58: 1637719368
+      Sprites Unorg_59: 1260927704
+      Sprites Unorg_6: -1825577647
+      Sprites Unorg_60: -300214053
+      Sprites Unorg_61: -1474646930
+      Sprites Unorg_62: 1849004492
+      Sprites Unorg_63: 1908110554
+      Sprites Unorg_64: -1786523862
+      Sprites Unorg_65: -457021826
+      Sprites Unorg_66: -1269643087
+      Sprites Unorg_67: 788620451
+      Sprites Unorg_68: 1196571770
+      Sprites Unorg_69: -1944145990
+      Sprites Unorg_7: 999778094
+      Sprites Unorg_70: 1494823392
+      Sprites Unorg_71: -1652015242
+      Sprites Unorg_72: 240725598
+      Sprites Unorg_73: 2094216071
+      Sprites Unorg_74: 1002417172
+      Sprites Unorg_75: 1861051261
+      Sprites Unorg_76: 521532863
+      Sprites Unorg_77: -1993345492
+      Sprites Unorg_78: -348881698
+      Sprites Unorg_79: 986490230
+      Sprites Unorg_8: 2002718553
+      Sprites Unorg_80: -2038260571
+      Sprites Unorg_81: 1301343948
+      Sprites Unorg_82: 1343415436
+      Sprites Unorg_83: 2118158217
+      Sprites Unorg_84: 643265578
+      Sprites Unorg_85: -1280475357
+      Sprites Unorg_86: 313994008
+      Sprites Unorg_87: 624188507
+      Sprites Unorg_88: -263788428
+      Sprites Unorg_89: 689786675
+      Sprites Unorg_9: 1671426621
+      Sprites Unorg_90: -1986154515
+      Sprites Unorg_91: 155032088
+      Sprites Unorg_92: 570329631
+      Sprites Unorg_93: -1175646986
+      Sprites Unorg_94: 831991411
+      Sprites Unorg_95: -112770614
+      Sprites Unorg_96: -1107944627
+      Sprites Unorg_97: -1480402002
+      Sprites Unorg_98: 1057832288
+      Sprites Unorg_99: 251709038
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
