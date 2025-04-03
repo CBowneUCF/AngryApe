@@ -119,6 +119,7 @@ namespace ObjectBasedStateMachine.UnLayered
 
 
             prevState.ExitState(nextState);
+            currentState = nextState; 
             nextState.EnterState(prevState);
         }
 

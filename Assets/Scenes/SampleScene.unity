@@ -369,6 +369,7 @@ Transform:
   - {fileID: 1637188138}
   - {fileID: 248689186}
   - {fileID: 1411311195}
+  - {fileID: 909713174}
   - {fileID: 201112681}
   - {fileID: 1264284939}
   m_Father: {fileID: 890179137}
@@ -831,15 +832,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.26338026
+    x: 0.25687408
     y: 0
-    width: 0.47323942
+    width: 0.4862518
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 20
+  orthographic size: 17.041666
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1061,11 +1062,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asset: {fileID: -944628639613478452, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
-  Gameplay:
+  GameplayGroup:
     r_XMovement: {fileID: -776777169138010410, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
     r_YMovement: {fileID: 7496466511990802292, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
     r_Jump: {fileID: -4757041331847553234, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
-  UI:
+  UIGroup:
     r_Pause: {fileID: -2457185317549938941, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
 --- !u!50 &890179142
 Rigidbody2D:
@@ -1129,6 +1130,95 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.8}
   m_Size: {x: 1, y: 1.6}
   m_Direction: 0
+--- !u!1 &909713173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 909713174}
+  - component: {fileID: 909713176}
+  - component: {fileID: 909713175}
+  m_Layer: 0
+  m_Name: HammerJump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &909713174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909713173}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 307899849}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &909713175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909713173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569d642510d36f543afaea0300981408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalSpeed: 2
+  hAcceleration: 0.25
+  hDecceleration: 0.3
+  jumpPower: 2
+  jumpMinHeight: 0.25
+  jumpMaxHeight: 1.25
+  gravity: 98
+  terminalVelocity: 2
+  fallDeathHeight: 2.8
+  allowTurnWhileJumping: 0
+  allowJumpCancel: 0
+  r_inputHorizontal: {fileID: -776777169138010410, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
+--- !u!114 &909713176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909713173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ca022ce6de62649a33818276bcd72e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locked: 0
+  onAwakeEvent:
+    _PersistentCalls: []
+  onEnterEvent:
+    _PersistentCalls: []
+  onExitEvent:
+    _PersistentCalls: []
+  onUpdateEvent:
+    _PersistentCalls: []
+  onFixedUpdateEvent:
+    _PersistentCalls: []
+  signals:
+    _serializedList:
+    - Key: Land
+      Value:
+        _PersistentCalls:
+        - _Target: {fileID: 1411311196}
+          _MemberName: Enter
+          _PersistentArguments: []
+  lockReady: 0
 --- !u!1 &1003271832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,7 +1357,37 @@ MonoBehaviour:
   onFixedUpdateEvent:
     _PersistentCalls: []
   signals:
-    _serializedList: []
+    _serializedList:
+    - Key: Jump
+      Value:
+        _PersistentCalls:
+        - _Target: {fileID: 1637188140}
+          _MemberName: BeginJump
+          _PersistentArguments:
+          - _Type: 4
+            _Int: 0
+            _String: MarioMovementJumping+JumpPhase, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            _X: 0
+            _Y: 0
+            _Z: 0
+            _W: 0
+            _Object: {fileID: 0}
+    - Key: WalkOff
+      Value:
+        _PersistentCalls:
+        - _Target: {fileID: 1637188140}
+          _MemberName: BeginJump
+          _PersistentArguments:
+          - _Type: 4
+            _Int: 3
+            _String: MarioMovementJumping+JumpPhase, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            _X: 0
+            _Y: 0
+            _Z: 0
+            _W: 0
+            _Object: {fileID: 0}
   lockReady: 0
 --- !u!114 &1156908880
 MonoBehaviour:
@@ -1282,9 +1402,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  acceleration: 0.25
+  decceleration: 0.3
   r_inputHorizontal: {fileID: -776777169138010410, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
-  r_inputJump: {fileID: -4757041331847553234, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
-  body: {fileID: 890179139}
+  jumpState: {fileID: 1637188140}
 --- !u!1 &1264284938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,7 +1521,37 @@ MonoBehaviour:
   onFixedUpdateEvent:
     _PersistentCalls: []
   signals:
-    _serializedList: []
+    _serializedList:
+    - Key: Jump
+      Value:
+        _PersistentCalls:
+        - _Target: {fileID: 909713175}
+          _MemberName: BeginJump
+          _PersistentArguments:
+          - _Type: 4
+            _Int: 0
+            _String: MarioMovementJumping+JumpPhase, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            _X: 0
+            _Y: 0
+            _Z: 0
+            _W: 0
+            _Object: {fileID: 0}
+    - Key: WalkOff
+      Value:
+        _PersistentCalls:
+        - _Target: {fileID: 909713175}
+          _MemberName: BeginJump
+          _PersistentArguments:
+          - _Type: 4
+            _Int: 3
+            _String: MarioMovementJumping+JumpPhase, Assembly-CSharp, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+            _X: 0
+            _Y: 0
+            _Z: 0
+            _W: 0
+            _Object: {fileID: 0}
   lockReady: 0
 --- !u!114 &1411311197
 MonoBehaviour:
@@ -1415,9 +1566,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  acceleration: 0
+  decceleration: 0
   r_inputHorizontal: {fileID: -776777169138010410, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
-  r_inputJump: {fileID: 0}
-  body: {fileID: 0}
+  jumpState: {fileID: 909713175}
 --- !u!1 &1428558431
 GameObject:
   m_ObjectHideFlags: 0
@@ -3100,7 +3252,13 @@ MonoBehaviour:
   onFixedUpdateEvent:
     _PersistentCalls: []
   signals:
-    _serializedList: []
+    _serializedList:
+    - Key: Land
+      Value:
+        _PersistentCalls:
+        - _Target: {fileID: 1156908879}
+          _MemberName: Enter
+          _PersistentArguments: []
   lockReady: 0
 --- !u!114 &1637188140
 MonoBehaviour:
@@ -3114,6 +3272,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569d642510d36f543afaea0300981408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalSpeed: 2
+  hAcceleration: 0.25
+  hDecceleration: 0.3
+  jumpPower: 2
+  jumpMinHeight: 0.25
+  jumpMaxHeight: 1.25
+  gravity: 98
+  terminalVelocity: 2
+  fallDeathHeight: 2.8
+  allowTurnWhileJumping: 0
+  allowJumpCancel: 0
   r_inputHorizontal: {fileID: -776777169138010410, guid: f9a7798ce55d3f943a02b23d8e87d79f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

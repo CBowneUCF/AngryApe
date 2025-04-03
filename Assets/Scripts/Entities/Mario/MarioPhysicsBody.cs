@@ -6,11 +6,20 @@ using UnityEngine.UIElements;
 
 public class MarioPhysicsBody : MonoBehaviour
 {
-
+    #region Config
     public int movementProjectionSteps;
     public float maxSlopeNormalAngle = 20f;
+    public ContactFilter2D groundFilter;
 
-    public Vector2 velocity;
+    #endregion
+    #region References
+    private Rigidbody2D rb;
+    private StateMachine Machine;
+    #endregion
+    #region Data
+
+    #endregion
+    public Vector2 velocity = Vector2.zero; 
     public Vector2 position
     {
         get => rb.position;
@@ -27,15 +36,21 @@ public class MarioPhysicsBody : MonoBehaviour
         set
         {
             if (_grounded == value) return;
-
-
             _grounded = value;
+
+            if (_grounded)
+            {
+                Machine.SendSignal("Land", overrideReady: true);
+                velocity.y = 0; 
+            }
+            else
+            {
+
+            }
         }
     }
     private bool _grounded;
 
-    private Rigidbody2D rb;
-    private StateMachine Machine;
 
     private void Awake()
     {
@@ -49,9 +64,9 @@ public class MarioPhysicsBody : MonoBehaviour
         initVelocity = velocity;
         initNormal = Vector2.up;
 
-        if (velocity.y < 0.01f || (Grounded && (velocity.y >= 0.1f || rb.velocity.y >= 0.1f)))
+        if (Grounded)
         {
-            if (rb.Cast(Vector3.down, out groundHit))
+            if (rb.Cast(new Vector2(0, -.02f), out groundHit, groundFilter))
             {
 
                 initNormal = groundHit.normal;
@@ -60,7 +75,7 @@ public class MarioPhysicsBody : MonoBehaviour
                     Grounded = true;
                     velocity.y = 0;
                     initVelocity.y = 0;
-                    initVelocity = velocity.ProjectAndScale(groundHit.normal);
+                    initVelocity = initVelocity.ProjectAndScale(groundHit.normal);
                 }
             }
             else
@@ -83,7 +98,7 @@ public class MarioPhysicsBody : MonoBehaviour
     /// <param name="step">The current step. Starts at 0.</param>
     private void Move(Vector2 vel, Vector2 prevNormal, int step = 0)
     {
-        if (rb.Cast(vel, out RaycastHit2D hit))
+        if (rb.Cast(vel, out RaycastHit2D hit, groundFilter))
         {
             Vector2 snapToSurface = vel.normalized * hit.distance;
             Vector2 leftover = vel - snapToSurface;
@@ -148,6 +163,16 @@ public class MarioPhysicsBody : MonoBehaviour
     RaycastHit2D groundHit;
 
     private bool WithinSlopeAngle(Vector2 inNormal) => Vector2.Angle(Vector2.up, inNormal) < maxSlopeNormalAngle;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Vector3 contactPoint = collision.GetContact(0).normal;
+        if (!Grounded && velocity.y > .1f && Vector3.Dot(contactPoint, Vector3.up) < -0.75f)
+            velocity.y = 0;
+        else if (!Grounded && WithinSlopeAngle(contactPoint))
+            Grounded = true;
+
+    }
 
 }
 

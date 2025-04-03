@@ -17,16 +17,22 @@ namespace ObjectBasedStateMachine.UnLayered
     {
         #region Config
 
+        public new bool enabled
+        {
+            get => gameObject.activeSelf;
+            set => gameObject.SetActive(value);
+        }
+
         public bool locked = false;
 
         [FoldoutGroup("Lifetime Events", nameof(onAwakeEvent), nameof(onEnterEvent), nameof(onExitEvent), nameof(onUpdateEvent), nameof(onFixedUpdateEvent))]
         public Void lifetimeEventsHolder;
 
-        [SerializeField, HideInInspector] public UltEvent<State> onAwakeEvent;
+        [SerializeField, HideInInspector] public UltEvent<StateMachine> onAwakeEvent;
         [SerializeField, HideInInspector] public UltEvent<State> onEnterEvent;
         [SerializeField, HideInInspector] public UltEvent<State> onExitEvent;
-        [SerializeField, HideInInspector] public UltEvent<State> onUpdateEvent;
-        [SerializeField, HideInInspector] public UltEvent<State> onFixedUpdateEvent;
+        [SerializeField, HideInInspector] public UltEvent<float> onUpdateEvent;
+        [SerializeField, HideInInspector] public UltEvent<float> onFixedUpdateEvent;
 
         #region Signals
         public SerializedDictionary<string, UltEvent> signals;
@@ -61,35 +67,43 @@ namespace ObjectBasedStateMachine.UnLayered
         {
             this.machine = machine;
 
-            gameObject.SetActive(false);
+            enabled = false;
 
             behaviors = GetComponents<StateBehaviour>();
             for (int i = 0; i < behaviors.Length; i++) behaviors[i].Initialize(this);
+
+            onAwakeEvent?.Invoke(machine);
         }
 
         public void DoUpdate()
-        {for (int i = 0; i < behaviors.Length; i++) behaviors[i].OnUpdate();}
+        {
+            for (int i = 0; i < behaviors.Length; i++) behaviors[i].OnUpdate();
+            onUpdateEvent?.Invoke(Time.deltaTime);
+        }
         public void DoFixedUpdate()
-        {for (int i = 0; i < behaviors.Length; i++) behaviors[i].OnFixedUpdate();}
+        {
+            for (int i = 0; i < behaviors.Length; i++) behaviors[i].OnFixedUpdate();
+            onFixedUpdateEvent?.Invoke(Time.fixedDeltaTime);
+        }
 
         public State EnterState(State prev)
         {
             enabled = true;
-            base.gameObject.SetActive(true);
 
             for (int i = 0; i < behaviors.Length; i++) behaviors[i].OnEnter(prev);
 
-            machine.signalReady = !lockReady; 
+            machine.signalReady = !lockReady;
+            onEnterEvent?.Invoke(prev);
             return this;
         }
         public void ExitState(State next)
         {
             enabled = false;
+
             for (int i = 0; i < behaviors.Length; i++) behaviors[i].OnExit(next);
-            base.gameObject.SetActive(false);
+            onExitEvent?.Invoke(next);
         }
 
         public void Enter() => machine.TransitionState(this);
-
     }
 }

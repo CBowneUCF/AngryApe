@@ -9,4 +9,5 @@ public class MarioMovementClimbing : StateBehaviour
     public InputActionReference r_inputVertical;
     public float inputVertical => r_inputVertical.action.ReadValue<float>();
 
+    private Ladder currentLadder;
 }

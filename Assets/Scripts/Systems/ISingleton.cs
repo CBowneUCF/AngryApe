@@ -253,7 +253,7 @@ public interface Singleton
 
     public void Awake() { }
 
-    private static Dictionary<Type, GameObject> prefabs;
+    private static Dictionary<Type, GameObject> prefabs = new();
     public static bool GetPrefab<T>(out GameObject result)
     {
         if(prefabs.ContainsKey(typeof(T)))

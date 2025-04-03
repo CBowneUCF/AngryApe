@@ -1,3 +1,4 @@
+using ObjectBasedStateMachine.UnLayered;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using UnityEngine.InputSystem;
 /// So, I've worked to canibalize the generated C# class to make something that, while having to be manually upkept with every change to the Input Asset, at least is properly connected with it and doesn't deliberately make itself a pain in the ass. <br />
 /// Future versions of this solution will likely be based on ScriptableObject Singletons.
 /// </summary>
+[DefaultExecutionOrder(-10)]
 public class MarioController : MonoBehaviour, ISingleton<MarioController>
 {
     #region Singleton
@@ -25,25 +27,25 @@ public class MarioController : MonoBehaviour, ISingleton<MarioController>
 
     public InputActionAsset asset;
 
-    public GameplayGroup Gameplay;
+    public Gameplay GameplayGroup;
     [Serializable]
-    public struct GameplayGroup
+    public struct Gameplay
     {
         [SerializeField] InputActionReference r_XMovement;
         [SerializeField] InputActionReference r_YMovement;
         [SerializeField] InputActionReference r_Jump;
 
-        public static float XMovement => Get().Gameplay.r_XMovement.action.ReadValue<float>();
-        public static float YMovement => Get().Gameplay.r_YMovement.action.ReadValue<float>();
-        public static InputAction Jump => Get().Gameplay.r_Jump.action;
+        public static float XMovement => Get().GameplayGroup.r_XMovement.action.ReadValue<float>();
+        public static float YMovement => Get().GameplayGroup.r_YMovement.action.ReadValue<float>();
+        public static InputAction Jump => Get().GameplayGroup.r_Jump.action;
     }
 
-    public UIGroup UI;
+    public UI UIGroup;
     [Serializable]
-    public struct UIGroup
+    public struct UI
     {
         [SerializeField] InputActionReference r_Pause;
-        public static InputAction Pause => Get().UI.r_Pause.action;
+        public static InputAction Pause => Get().UIGroup.r_Pause.action;
     }
 
 
@@ -52,19 +54,25 @@ public class MarioController : MonoBehaviour, ISingleton<MarioController>
 
     #endregion
 
+    #region References
+    StateMachine marioStateMachine;
+    #endregion
 
     public void Awake()
     {
         S.Initialize(ref I);
         asset.Enable();
+        TryGetComponent(out marioStateMachine);
+        Gameplay.Jump.performed += JumpAction;
     }
+
     private void OnDestroy()
     {
-
+        Gameplay.Jump.performed -= JumpAction;
         S.DeInitialize(ref I);
     }
 
-
+    private void JumpAction(InputAction.CallbackContext context) => marioStateMachine.SendSignal("Jump");
 
 
 
