@@ -18,16 +18,16 @@ public class PoolableObject : MonoBehaviour
     /// </summary>
     public virtual void Prepare() { }
 
-    public virtual void Prepare_Basic(Vector3 position, Vector3 direction, Vector3 velocity, bool relative = true)
+    public virtual void Prepare_Basic(Vector2 position, Vector2 rotation, Vector2 velocity, bool relative = true)
     {
         transform.position = position;
-        transform.eulerAngles = direction;
+        transform.eulerAngles = rotation;
 
-        Rigidbody rigid = rb;
+        Rigidbody2D rigid = rb;
         if (!rigid) return;
 
         rigid.velocity = relative ? transform.TransformDirection(velocity) : velocity;
-        rigid.angularVelocity = Vector3.zero;
+        rigid.angularVelocity = 0;
 
     }
 
@@ -46,19 +46,32 @@ public class PoolableObject : MonoBehaviour
     }
 
     private void OnDisable() { if (Active) Disable(); }
-    public Rigidbody rb => GetComponent<Rigidbody>();
+    public Rigidbody2D rb => GetComponent<Rigidbody2D>();
 
     public static PoolableObject Is(GameObject subject)
     {
-        PoolableObject pool = subject.GetComponent<PoolableObject>(); 
-        if (!pool) return null;
-        if (pool.pool == null) return null;
-        return pool;
+        PoolableObject poolable = subject.GetComponent<PoolableObject>();
+        if (!poolable) return null;
+        if (poolable.pool == null) return null;
+        return poolable;
     }
     public static bool Is(GameObject subject, out PoolableObject result)
     {
         result = subject.GetComponent<PoolableObject>();
         return result && result.pool != null;
+    }
+    public static bool DisableOrDestroy(GameObject subject)
+    {
+        if (subject.TryGetComponent(out PoolableObject poolable) && poolable.pool != null)
+        {
+            poolable.Disable();
+            return true;
+        }
+        else
+        {
+            Destroy(subject);
+            return false;
+        }
     }
 
     public void SetPosition(Vector3 position) => transform.position = position;

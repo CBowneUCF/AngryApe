@@ -15,11 +15,13 @@ public class MarioMovementGrounded : StateBehaviour
     public InputActionReference r_inputHorizontal;
     public MarioMovementJumping jumpState;
     MarioPhysicsBody body;
+    MarioSpriteManager sprite;
     #endregion
 
     public override void OnAwake()
     {
         Machine.TryGetComponent(out body);
+        Machine.TryGetComponent(out sprite);
         //MarioController.Gameplay.Jump.performed += Jump;
     }
 
@@ -30,9 +32,16 @@ public class MarioMovementGrounded : StateBehaviour
         if(input == 0f && body.velocity.x != 0)
             body.velocity.x = Mathf.MoveTowards(body.velocity.x, 0, decceleration);
         else if (input > 0)//right
+        {
             body.velocity.x = Mathf.MoveTowards(body.velocity.x, speed, acceleration);
+            sprite.SetFlip(false);
+        }
         else if (input < 0)//left
+        {
             body.velocity.x = Mathf.MoveTowards(body.velocity.x, -speed, acceleration);
+            sprite.SetFlip(true);
+        }
+
     }
 
     //void Jump(InputAction.CallbackContext context)

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// The Input Reader/Controller object for the system. Placed on the Root of Mario's entity because the game is simple enough that it shouldn't need to keep track of Input with any kind of cross-scene stuff. <br />
@@ -31,9 +32,9 @@ public class MarioController : MonoBehaviour, ISingleton<MarioController>
     [Serializable]
     public struct Gameplay
     {
-        [SerializeField] InputActionReference r_XMovement;
-        [SerializeField] InputActionReference r_YMovement;
-        [SerializeField] InputActionReference r_Jump;
+        public InputActionReference r_XMovement;
+        public InputActionReference r_YMovement;
+        public InputActionReference r_Jump;
 
         public static float XMovement => Get().GameplayGroup.r_XMovement.action.ReadValue<float>();
         public static float YMovement => Get().GameplayGroup.r_YMovement.action.ReadValue<float>();
@@ -44,7 +45,7 @@ public class MarioController : MonoBehaviour, ISingleton<MarioController>
     [Serializable]
     public struct UI
     {
-        [SerializeField] InputActionReference r_Pause;
+        public InputActionReference r_Pause;
         public static InputAction Pause => Get().UIGroup.r_Pause.action;
     }
 
@@ -55,7 +56,9 @@ public class MarioController : MonoBehaviour, ISingleton<MarioController>
     #endregion
 
     #region References
+    public GameObject pauseIcon;
     StateMachine marioStateMachine;
+    MarioPhysicsBody marioBody;
     #endregion
 
     public void Awake()
@@ -63,18 +66,58 @@ public class MarioController : MonoBehaviour, ISingleton<MarioController>
         S.Initialize(ref I);
         asset.Enable();
         TryGetComponent(out marioStateMachine);
+        TryGetComponent(out marioBody);
         Gameplay.Jump.performed += JumpAction;
+        GameplayGroup.r_YMovement.action.performed += ClimbAction;
+        UI.Pause.performed += TogglePause;
     }
 
     private void OnDestroy()
     {
         Gameplay.Jump.performed -= JumpAction;
+        GameplayGroup.r_YMovement.action.performed -= ClimbAction;
+        UI.Pause.performed -= TogglePause;
         S.DeInitialize(ref I);
     }
 
     private void JumpAction(InputAction.CallbackContext context) => marioStateMachine.SendSignal("Jump");
 
+    private void ClimbAction(InputAction.CallbackContext context) => marioBody.ClimbAction(context.ReadValue<float>() < 0);
 
+    public void Death()
+    {
+        CoroutinePlus C = new(Enum(), this);
+        IEnumerator Enum()
+        {
+            Time.timeScale = 0;
+            marioStateMachine.enabled = false;
 
+            GetComponent<MarioSpriteManager>().GoDied();
+            yield return WaitFor.SecondsRealtime(3);
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+    public void Win()
+    {
+        CoroutinePlus C = new(Enum(), this);
+        IEnumerator Enum()
+        {
+            Time.timeScale = 0;
+            marioStateMachine.enabled = false;
 
+            yield return WaitFor.SecondsRealtime(5);
+            Time.timeScale = 1;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
+    bool paused;
+    public void TogglePause(InputAction.CallbackContext context)
+    {
+        paused = !paused;
+        Time.timeScale = paused ? 0 : 1;
+        marioStateMachine.enabled = paused ? false : true;
+        pauseIcon.SetActive(paused ? true : false);
+    }
 }

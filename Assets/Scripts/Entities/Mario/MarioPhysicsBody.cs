@@ -10,15 +10,19 @@ public class MarioPhysicsBody : MonoBehaviour
     public int movementProjectionSteps;
     public float maxSlopeNormalAngle = 20f;
     public ContactFilter2D groundFilter;
+    public ContactFilter2D ladderFliter;
 
     #endregion
     #region References
     private Rigidbody2D rb;
+    private new Collider2D collider;
     private StateMachine Machine;
+    public MarioMovementGrounded groundedState;
+    public MarioMovementJumping airState;
+    public MarioMovementClimbing climbingState;
     #endregion
     #region Data
 
-    #endregion
     public Vector2 velocity = Vector2.zero; 
     public Vector2 position
     {
@@ -28,6 +32,12 @@ public class MarioPhysicsBody : MonoBehaviour
             rb.position = value;
             rb.MovePosition(value);
         }
+    }
+    public void SetPosition(float? x = null, float? y = null)
+    {
+        x ??= position.x;
+        y ??= position.y;
+        position = new(x.Value, y.Value);
     }
     public bool Grounded
     {
@@ -50,12 +60,14 @@ public class MarioPhysicsBody : MonoBehaviour
         }
     }
     private bool _grounded;
+    #endregion
 
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         Machine = GetComponent<StateMachine>();
+        collider = GetComponent<Collider2D>();
     }
 
     private void FixedUpdate()
@@ -127,7 +139,7 @@ public class MarioPhysicsBody : MonoBehaviour
                 }
                 else
                 {
-                    leftover = leftover.ProjectAndScale(hit.normal);
+                    //leftover = leftover.ProjectAndScale(hit.normal);
                 }
             }
 
@@ -139,7 +151,7 @@ public class MarioPhysicsBody : MonoBehaviour
                 nextNormal = newNormal.XZ().normalized;
             }
 
-            Vector3 newDir = leftover.ProjectAndScale(nextNormal) * (Vector3.Dot(leftover.normalized, nextNormal) + 1);
+            Vector3 newDir = leftover.ProjectAndScale(nextNormal) /* *(Vector3.Dot(leftover.normalized, nextNormal) + 1)*/;
             Move(newDir, nextNormal, step + 1);
         }
         else
@@ -174,6 +186,33 @@ public class MarioPhysicsBody : MonoBehaviour
 
     }
 
+    public void ClimbAction(bool downwards)
+    {
+        if(groundedState && rb.Cast(Vector2.zero, out RaycastHit2D hit, ladderFliter) && hit.transform.TryGetComponent(out Ladder ladder))
+        {
+            float heightDifferenceTop = Mathf.Abs(ladder.topEdge - position.y);
+            float heightDifferenceBot = Mathf.Abs(ladder.bottomEdge - position.y);
+            if(heightDifferenceBot < heightDifferenceTop && !downwards)
+            {
+                position = new Vector2(ladder.transform.position.x, ladder.bottomEdge);
+                climbingState.Enter(ladder);
+            }
+            else if (heightDifferenceTop < heightDifferenceBot && downwards)
+            {
+                position = new Vector2(ladder.transform.position.x, ladder.topEdge);
+                climbingState.Enter(ladder);
+            }
+        }
+    }
+
+    public void SetCollider(bool value) => collider.enabled = value;
+
+    public void SnapToGround()
+    {
+        position += Vector2.up * .05f;
+        rb.Cast(Vector2.down, out RaycastHit2D result, groundFilter);
+        position += Vector2.down * result.distance;
+    }
 }
 
 public static class _physicsExtensions
